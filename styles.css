@@ -161,22 +161,22 @@ img {
   animation-timing-function: ease-in-out;
 }
 
-@keyframes fade-out {
+@keyframes fadeOut {
   from {opacity: 1}
   to {opacity: 0}
 }
 
-@keyframes fade-in {
+@keyframes fadeIn {
   from {opacity: 0}
   to {opacity: 1}
 }
 
-#fader.fade-out {
+#fader.fadeOut {
   opacity: 0;
-  animation-name: fade-out;
+  animation-name: fadeOut;
 }
 
-#fader.fade-in {
+#fader.fadeIn {
   opacity: 1;
-  animation-name: fade-in;
+  animation-name: fadeIn;
 }
