@@ -1,16 +1,66 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Ian Guy CS410 - Previous Work and Projects</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    empty body
-    <button onclick="location.href='contact.html'" type="button">contact page</button>
-    <button onclick="location.href='index.html'" type="button">home</button>
+    <nav class="navbar">
+      <ul class="navBody">
+        <li>
+          <a href="#" class="navLinks" onclick="location.href='index.html'">Home</a>
+        </li>
+        <li>
+          <a href="#" class="navLinks" onclick="location.href='contact.html'">Contact</a>
+        </li>
+        <li>
+          <a href="#" class="navLinks">Projects</a>
+        </li>
+      </ul>
+    </nav>
+    <p class="bodyText">
+      This is the projects section! Featured below are some projects I’ve
+      contributed to and how I’ve contributed to them. While the focus is on
+      computer science, engineering projects may be present :)
+    </p>
+    <p class="bodyText2">
+      This project was somewhat small, but did a great deal to prove the power
+      of Rust despite how young it is as a language. The concept of the program
+      was to listen for a call in a Discord chat which contained two locations
+      and then return a Google maps route. Using Rust with Tokio and Serenity
+      made talking with Google’s BigQuery and Discord’s API a breeze - allowing
+      for the program to work with incredible response times. Tested against a
+      similar program using the same APIs in NodeJS, the Rust program had a
+      response time between a quarter and a fifth of the aforementioned NodeJS
+      program. This is not to say NodeJS is bad or inefficient by any means -
+      just at how impressively efficient Rust is.
+    </p>
+    <p class="bodyText2">
+      Engineering projects are always interesting to talk about! Besides the
+      command and control aspect of programs responding to sensor data, the
+      actual manufacturing of the device was quite the process. Space Age
+      Agriculture was a small planter designed to work in zero or low gravity
+      scenarios. Programming was mainly done with an Arduino in Arduino C. Soil
+      moisture, water level, and light sensors were used to sense when three
+      spinach plants should be exposed to grow lights and given more water. To
+      make the planter work in zero gravity, the spinach would have to grow
+      through a grid of sorts to keep any particulates from escaping. The water
+      delivery was also specifically intended to overfill the planters, and a
+      pump would then pull excess water out after a predetermined dwell time.
+      This allowed for water use to be minimized - and for things like pH to be
+      addressed directly in the future.
+    </p>
+    <p class="bodyText2">
+      Ecomapper is a current project I’m contributing to - which aims to help
+      psychiatrists and therapists in an open source manner. The idea of the
+      program is to give a tool to help visualize a patient’s interpersonal
+      relationships for both the patient’s and the medical providers' benefit.
+      The program is currently being written in ExpressJS on the backend - which
+      is the team I’m a part of. As more details on this project emerge they may
+      be added here.
+    </p>
   </body>
 </html>
