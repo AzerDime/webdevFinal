@@ -8,6 +8,14 @@ a {
   text-decoration: none;
 }
 
+a:link{
+  color: var(--bg1);
+}
+
+a:visited{
+  color: var(--bg6);
+}
+
 :root {
   --white: #ffffff;
   --gray1: #333333;
@@ -31,6 +39,7 @@ a {
   --bg3: #767b91;
   --bg4: #c7ccdb;
   --bg5: #e1e5ee;
+  --bg6: #ffb8b8;
 }
 
 .navbar {
@@ -67,9 +76,43 @@ a {
   color: var(--bg2);
 }
 
+.bodyText {
+  display: flex;
+  width: 100vw;
+  font-size: 18px;
+  max-width: 30%;
+  float: center;
+  margin: auto;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.bodyText2 {
+  display: flex;
+  width: 100vw;
+  font-size: 18px;
+  max-width: 70%;
+  float: center;
+  margin: auto;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.contactList {
+  list-style: none;
+  margin-left: 10%;
+}
+
 body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.2em;
-  background-color: var(--bg3);
+  background-color: var(--bg2);
+  color: var(--bg4);
 }
 
+h1 {
+  text-align: center;
+  padding-right: 3%;
+}
