@@ -77,14 +77,13 @@ a:visited{
 
 .bodyText {
   display: flex;
-  width: 100vw;
   font-size: 18px;
   max-width: 80%;
   float: center;
-  margin: auto;
-  align-items: center;
   padding-bottom: 10px;
   padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .bodyText2 {
@@ -123,4 +122,28 @@ body {
 
 h1 {
   text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  padding-right: 44px;
+}
+
+.imgCenter {
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  padding: 10px;
+  align-items: center;
+}
+
+.imgCenterNoRounding {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  align-items: center;
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-width: 300px;
 }
